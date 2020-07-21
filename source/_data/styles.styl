@@ -1,1 +1,29 @@
 // Overwrite global styles
+
+body::after {
+  background: url(https://source.unsplash.com/random/1600x900?wallpapers);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  content: "";
+  opacity: 0.2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;   
+}
+
+.content-wrap {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.header-inner {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar, .sidebar-inner {
+  background: rgba(255, 255, 255, 0.1);
+}
