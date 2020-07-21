@@ -89,6 +89,7 @@ reward:
   alipay: Alipay
   paypal: PayPal
   bitcoin: Bitcoin
+  venmo: Venmo
 
 follow_me:
   welcome: Welcome to my other publishing channels
